@@ -2,7 +2,7 @@ import streamlit as st
 import joblib
 import pandas as pd
 import os
-os.system("pip install joblib")
+
 
 # -------------------------------
 # Page Configuration
@@ -20,7 +20,7 @@ st.set_page_config(
 def load_model():
     # Based on your folder structure in image_974839.png, 
     # the model is inside 'churn_project1'
-    model_path = "churn_project1/churn_model.pkl"
+    model_path = "churn_model.pkl"
     
     if not os.path.exists(model_path):
         st.error(f"File not found at {model_path}. Please check your folder structure.")
