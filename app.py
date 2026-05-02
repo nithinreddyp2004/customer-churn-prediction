@@ -2,6 +2,7 @@ import streamlit as st
 import joblib
 import pandas as pd
 import os
+os.system("pip install joblib")
 
 # -------------------------------
 # Page Configuration
