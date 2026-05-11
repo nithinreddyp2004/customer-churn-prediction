@@ -6,7 +6,7 @@ A machine learning web application that predicts whether a customer is likely to
 
 ## 🚀 Live Demo
 
-> Run locally using the steps below or deploy on [Streamlit Cloud](https://streamlit.io/cloud)
+> Run locally using the steps below or deploy on [Streamlit Cloud](https://customer-churn-prediction28.streamlit.app/)
 
 ---
 
